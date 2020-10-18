@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 8.10.1</title>
+</head>
+<body>
+    <form action="#">
+        <label>
+            Текст
+            <input id="text" type="text" placeholder="Введите текст">
+        </label>
+        <button id="submit" type="submit">Нажми меня</button>
+    </form>
+
+    <script>
+        function handler(){
+            console.log(text.value);
+        }
+        text.addEventListener('input', handler);
+    </script>
+</body>
+</html>
